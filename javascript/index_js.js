@@ -4,8 +4,8 @@ function onFormSubmit() {
 }
 function readFormData() {
     var formData = [];
-    formData["fullName"] = document.getElementById("fullName").Value;
-    formData["empCode"] = document.getElementById("empCode").Value;
+    formData["fullName"] = document.getElementById("fullName").value;
+    formData["empCode"] = document.getElementById("empCode").value;
     return formData;
 }
 function inserNewRecord(data) {
